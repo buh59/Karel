@@ -1,5 +1,5 @@
 definir tourner_droite:
-    repeter 2 fois:
+    repeter 3 fois:
         tourner_gauche
 
 tant que devant_libre:
@@ -15,3 +15,4 @@ tourner_gauche
 avancer
 avancer
 ramasser_balise
+
