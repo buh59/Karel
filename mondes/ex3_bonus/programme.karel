@@ -1,0 +1,44 @@
+# Exercice 3 bonus : Le slalom
+
+definir tourner_droite:
+    tourner_gauche
+    tourner_gauche
+    tourner_gauche
+
+
+avancer
+avancer
+tourner_gauche
+avancer
+tourner_droite
+avancer
+avancer
+avancer
+avancer
+tourner_droite
+avancer
+avancer
+tourner_gauche
+avancer
+avancer
+tourner_gauche
+avancer
+avancer
+tourner_droite
+avancer
+avancer
+avancer
+avancer
+avancer
+tourner_droite
+avancer
+avancer
+tourner_gauche
+avancer
+avancer
+avancer
+avancer
+tourner_gauche
+avancer
+tourner_droite
+ramasser_balise
