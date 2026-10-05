@@ -1,0 +1,26 @@
+# Exercice 4 bonus : Le verger
+
+definir tourner_droite:
+    tourner_gauche
+    tourner_gauche
+    tourner_gauche
+
+repeter 2 fois:
+    repeter 3 fois:
+        poser_balise
+        avancer
+        avancer
+    poser_balise
+    tourner_droite
+    avancer
+    tourner_droite
+    tant que devant_libre:
+        avancer
+    tourner_gauche
+    avancer
+    tourner_gauche
+repeter 3 fois:
+    poser_balise
+    avancer
+    avancer
+poser_balise
