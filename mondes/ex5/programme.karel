@@ -17,3 +17,23 @@ tant que pas balise_ici:
 ramasser_balise
 
 demi_tour
+
+definir demi_tour:
+    tourner_gauche
+    tourner_gauche
+
+    tant que devant_libre:
+        avancer
+
+    tourner_gauche
+    tourner_gauche
+
+
+tant que pas balise_ici:
+    avancer
+
+ramasser_balise
+
+demi_tour
+
+#merde
