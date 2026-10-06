@@ -1,10 +1,11 @@
 # Projet : Karel le jardinier
 
 
-tant que balise_ici:
-    ramasser_balise
+
 
 repeter 2 fois:
+    tant que balise_ici:
+        ramasser_balise
     tant que devant_libre:
         si devant_libre:
             avancer
@@ -14,6 +15,8 @@ repeter 2 fois:
     si devant_libre:
         avancer
     tourner_gauche
+    tant que balise_ici:
+        ramasser_balise
     tant que devant_libre:
         avancer
         tant que balise_ici:
