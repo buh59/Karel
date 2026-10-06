@@ -1,6 +1,15 @@
 # Projet : Karel le jardinier
 
-
+si regarde_sud:
+    avancer
+    avancer
+    tourner_gauche
+    avancer
+    avancer
+    avancer
+    avancer
+    tourner_gauche
+    tourner_gauche
 
 si regarde_est:
     repeter 2 fois:
@@ -56,3 +65,11 @@ sinon:
         si devant_libre:
             avancer
         tourner_gauche
+
+tant que balise_ici:
+    ramasser_balise
+tant que devant_libre:
+    si devant_libre:
+        avancer
+    tant que balise_ici:
+        ramasser_balise
