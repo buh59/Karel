@@ -1,0 +1,33 @@
+# Exercice 5 bonus : Le facteur
+
+
+si balise_ici:
+    ramasser_balise
+tant que devant_libre:
+    avancer
+    si balise_ici:
+        ramasser_balise
+tourner_gauche
+tourner_gauche
+tourner_gauche
+tant que devant_libre:
+    avancer
+    si balise_ici:
+        ramasser_balise
+tourner_gauche
+tourner_gauche
+tourner_gauche
+tant que devant_libre:
+    avancer
+    si balise_ici:
+        ramasser_balise
+tourner_gauche
+tant que devant_libre:
+    avancer
+    si balise_ici:
+        ramasser_balise
+tourner_gauche
+tant que devant_libre:
+    avancer
+    si balise_ici:
+        ramasser_balise
