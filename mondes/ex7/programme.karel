@@ -2,30 +2,57 @@
 
 
 
-
-repeter 2 fois:
-    tant que balise_ici:
-        ramasser_balise
-    tant que devant_libre:
+si regarde_est:
+    repeter 2 fois:
+        tant que balise_ici:
+            ramasser_balise
+        tant que devant_libre:
+            si devant_libre:
+                avancer
+            tant que balise_ici:
+                ramasser_balise
+        tourner_gauche
         si devant_libre:
             avancer
+        tourner_gauche
         tant que balise_ici:
             ramasser_balise
-    tourner_gauche
-    si devant_libre:
-        avancer
-    tourner_gauche
-    tant que balise_ici:
-        ramasser_balise
-    tant que devant_libre:
-        avancer
+        tant que devant_libre:
+            avancer
+            tant que balise_ici:
+                ramasser_balise
+        tourner_gauche
+        tourner_gauche
+        tourner_gauche
+        si devant_libre:
+            avancer
+        tourner_gauche
+        tourner_gauche
+        tourner_gauche
+sinon:
+    repeter 2 fois:
         tant que balise_ici:
             ramasser_balise
-    tourner_gauche
-    tourner_gauche
-    tourner_gauche
-    si devant_libre:
-        avancer
-    tourner_gauche
-    tourner_gauche
-    tourner_gauche
+        tant que devant_libre:
+            si devant_libre:
+                avancer
+            tant que balise_ici:
+                ramasser_balise
+        tourner_gauche
+        tourner_gauche
+        tourner_gauche
+        si devant_libre:
+            avancer
+        tourner_gauche
+        tourner_gauche
+        tourner_gauche
+        tant que balise_ici:
+            ramasser_balise
+        tant que devant_libre:
+            avancer
+            tant que balise_ici:
+                ramasser_balise
+        tourner_gauche
+        si devant_libre:
+            avancer
+        tourner_gauche
