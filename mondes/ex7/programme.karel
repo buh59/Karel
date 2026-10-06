@@ -1,1 +1,9 @@
 # Projet : Karel le jardinier
+
+
+tant que balise_ici:
+    ramasser_balise
+tant que devant_libre:
+    avancer
+    tant que balise_ici:
+        ramasser_balise
